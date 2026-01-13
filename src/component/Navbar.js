@@ -26,8 +26,7 @@ function Navbar(){
                     <Link id="navOp" to="/">Home</Link>
                     <Link id="navOp" to="/donorLogin">Donor</Link>
                     <Link id="navOp" to="/ngoLogin">NGO</Link>
-                    <Link id="navOp" to="/">About</Link>
-                    <Link id="navOp" to="/">Contact</Link>
+                    <Link id="navOp" to="/adminLogin">Admin</Link>
                 </div>);
             }else if(navObj.navShow=="donor"){
                 setNavBar(<div id="section">
